@@ -1,9 +1,7 @@
-mot_de_passe_correct = "12345678" 
-tentative = ""
+mot_de_passe_coorect = ["python123"]
 
-while tentative != mot_de_passe_correct:
-    tentative = input("Entrez le mot de passe : ")
-    if tentative != mot_de_passe_correct:
-        print("Mot de passe incorrect. Reessayez.")
-
-print(" Bienvenue !") 
+mot = input("Entrez votre mot de passe : ")
+while mot != mot_de_passe_coorect[0]:
+    print("Mot de passe incorrect ! - Réssayer encore une fois !")
+    mot = input("Entrez votre mot de passe : ")
+print("Mot de passe correct !")
